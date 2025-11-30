@@ -1,0 +1,62 @@
+# -------------------------
+# PYTHON
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# -------------------------
+# NODE & FRONTEND
+# -------------------------
+node_modules/
+.next/
+dist/
+build/
+npm-debug.log
+
+# Next.js cache
+.next/
+out/
+
+# -------------------------
+# EDITORS / OS
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+
+# -------------------------
+# LOGS
+# -------------------------
+*.log
+
+# -------------------------
+# TEMP FILES
+# -------------------------
+*.tmp
+*.bak
+
+# -------------------------
+# AUTO GENERATED
+# -------------------------
+.ruff_cache/
+
+# -------------------------
+# DATA / ASSETS / MODELS
+# -------------------------
+uploads/
+assets/
+*.pdf
+*.onnx
+*.pt
+*.pth
+*.pkl
